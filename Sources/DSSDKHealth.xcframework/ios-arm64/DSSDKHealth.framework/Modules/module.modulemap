@@ -1,0 +1,6 @@
+framework module DSSDKHealth {
+  umbrella header "DSSDKHealth.h"
+  export *
+
+  module * { export * }
+}
