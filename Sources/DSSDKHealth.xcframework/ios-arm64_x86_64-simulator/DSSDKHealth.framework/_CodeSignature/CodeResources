@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/DSSDKHealth.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		xS7s0zv9lDFY0mjaytsUyTuTlWA=
+		gGpj7Mh+QKdn7UH6b2lK0aQyeag=
 		</data>
 		<key>Modules/DSSDKHealth.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/DSSDKHealth.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Iv5SkDNXQBLBlMDraGeq1lspWA4=
+		T6CzN0uRnkascu6eSS1OmDfY+EI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -98,7 +98,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EDrsuPlhSl+6qBca2Nnt1p5b+WDBW6+dpAvGd4iIb1w=
+			Zzz+mTuiFHxeGjAEAxWk09SrcruMCoHOldJ/MtYwPOo=
 			</data>
 		</dict>
 		<key>Modules/DSSDKHealth.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dqAdy1jPMJay2mUPy88YGAo0HTghyZ023UVVTRC92W4=
+			jko22iZQn3skKidliF1VbpuEyE9Osvzw/SylgMnZd64=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
