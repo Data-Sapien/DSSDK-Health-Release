@@ -4,88 +4,66 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/DSSDKHealth.h</key>
-		<data>
-		ODdXrOmFGW0pnPUVmpsqb18IkmE=
-		</data>
 		<key>Info.plist</key>
 		<data>
-		d3ZvI9Q/eFDDkY95P1rE1FGymik=
+		36dPpCoprZlfob0vs1EPyeWmhDQ=
 		</data>
-		<key>Modules/DSSDKHealth.swiftmodule/arm64-apple-ios.abi.json</key>
+		<key>Modules/DSSDK_Health_Build.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		qAoxoysO6XAX9D/syqiUUIfowbM=
+		6b1GJ5iPreQj798+6tQQbDoe64o=
 		</data>
-		<key>Modules/DSSDKHealth.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<key>Modules/DSSDK_Health_Build.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		grx27f/AlxUpl/MWt/duM3K1HvQ=
+		ByLbigcW0kYS17DIvy9N0yB4Bdo=
 		</data>
-		<key>Modules/DSSDKHealth.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/DSSDK_Health_Build.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		Dx39Fy+K5V4k4go5GVfpGj2oIqk=
+		QjwtGpP52js9DaFkiibGgcJY2KM=
 		</data>
-		<key>Modules/DSSDKHealth.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<key>Modules/DSSDK_Health_Build.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		grx27f/AlxUpl/MWt/duM3K1HvQ=
+		ByLbigcW0kYS17DIvy9N0yB4Bdo=
 		</data>
-		<key>Modules/DSSDKHealth.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/DSSDK_Health_Build.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		BucaWkDPRJQBtued6+qNktxTZ2Y=
-		</data>
-		<key>Modules/module.modulemap</key>
-		<data>
-		zQseIkcutybhFozYZoHCRoVvhbQ=
+		c9nP7+DdGzNbf/o3LjgcKPAuqT4=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/DSSDKHealth.h</key>
+		<key>Modules/DSSDK_Health_Build.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			roJXnYLGCXgKGlO3vz5PF6ZeFpCnfz5/pk41MHisLBE=
+			EYSujR6z08sqccFH9uDINJZy/mCr6FsLXJWpktFKFbM=
 			</data>
 		</dict>
-		<key>Modules/DSSDKHealth.swiftmodule/arm64-apple-ios.abi.json</key>
+		<key>Modules/DSSDK_Health_Build.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MFe557b26QDos9JjUppk4FFlFUu3CaqI2BAdRp+zgqs=
+			JaHDB8BrQIKwqlgfmYXSujJF1c9NSCNbsUnbDBA+N2M=
 			</data>
 		</dict>
-		<key>Modules/DSSDKHealth.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<key>Modules/DSSDK_Health_Build.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			s8wxRcJ4Vg9T+3+aVW3x3T4VDDtJHwWQQwhZbcN7yco=
+			/+Uve7dZkiRoKg9TGhQmcIeDWxwTN26Fntv65Y02Fmc=
 			</data>
 		</dict>
-		<key>Modules/DSSDKHealth.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/DSSDK_Health_Build.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			S7KH8XcDOM24j1Vb3A8fDbEHtBHuD9VDLAJWWWEsIv0=
+			JaHDB8BrQIKwqlgfmYXSujJF1c9NSCNbsUnbDBA+N2M=
 			</data>
 		</dict>
-		<key>Modules/DSSDKHealth.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<key>Modules/DSSDK_Health_Build.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			s8wxRcJ4Vg9T+3+aVW3x3T4VDDtJHwWQQwhZbcN7yco=
-			</data>
-		</dict>
-		<key>Modules/DSSDKHealth.swiftmodule/arm64-apple-ios.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			CHbzn3YEowixGfNd6H7t+P5VQ7TfNdOY3VfDyAtL3QI=
-			</data>
-		</dict>
-		<key>Modules/module.modulemap</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			o+qSW8gkOc7hoSN82eTYhaFEpO3Z3zseLs6ePfJt8xQ=
+			DEK2ZmyhixqNx/YweJwgqKskxMp0EhksLgua8cIBGP4=
 			</data>
 		</dict>
 	</dict>
