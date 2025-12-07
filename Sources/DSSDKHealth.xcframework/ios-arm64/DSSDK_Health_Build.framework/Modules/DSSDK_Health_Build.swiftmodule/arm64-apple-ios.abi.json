@@ -30,6 +30,1549 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "BloodOxygenDataCollector",
+        "printedName": "BloodOxygenDataCollector",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BloodOxygenDataCollector",
+                "printedName": "DSSDK_Health_Build.BloodOxygenDataCollector",
+                "usr": "s:18DSSDK_Health_Build24BloodOxygenDataCollectorC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18DSSDK_Health_Build24BloodOxygenDataCollectorCACycfc",
+            "mangledName": "$s18DSSDK_Health_Build24BloodOxygenDataCollectorCACycfc",
+            "moduleName": "DSSDK_Health_Build",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18DSSDK_Health_Build24BloodOxygenDataCollectorC4nameSSvp",
+            "mangledName": "$s18DSSDK_Health_Build24BloodOxygenDataCollectorC4nameSSvp",
+            "moduleName": "DSSDK_Health_Build",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DSSDK_Health_Build24BloodOxygenDataCollectorC4nameSSvg",
+                "mangledName": "$s18DSSDK_Health_Build24BloodOxygenDataCollectorC4nameSSvg",
+                "moduleName": "DSSDK_Health_Build",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DSSDK_Health_Build24BloodOxygenDataCollectorC4nameSSvs",
+                "mangledName": "$s18DSSDK_Health_Build24BloodOxygenDataCollectorC4nameSSvs",
+                "moduleName": "DSSDK_Health_Build",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DSSDK_Health_Build24BloodOxygenDataCollectorC4nameSSvM",
+                "mangledName": "$s18DSSDK_Health_Build24BloodOxygenDataCollectorC4nameSSvM",
+                "moduleName": "DSSDK_Health_Build",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "requiredPermissions",
+            "printedName": "requiredPermissions",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18DSSDK_Health_Build24BloodOxygenDataCollectorC19requiredPermissionsSaySSGSgvp",
+            "mangledName": "$s18DSSDK_Health_Build24BloodOxygenDataCollectorC19requiredPermissionsSaySSGSgvp",
+            "moduleName": "DSSDK_Health_Build",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DSSDK_Health_Build24BloodOxygenDataCollectorC19requiredPermissionsSaySSGSgvg",
+                "mangledName": "$s18DSSDK_Health_Build24BloodOxygenDataCollectorC19requiredPermissionsSaySSGSgvg",
+                "moduleName": "DSSDK_Health_Build",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DSSDK_Health_Build24BloodOxygenDataCollectorC19requiredPermissionsSaySSGSgvs",
+                "mangledName": "$s18DSSDK_Health_Build24BloodOxygenDataCollectorC19requiredPermissionsSaySSGSgvs",
+                "moduleName": "DSSDK_Health_Build",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DSSDK_Health_Build24BloodOxygenDataCollectorC19requiredPermissionsSaySSGSgvM",
+                "mangledName": "$s18DSSDK_Health_Build24BloodOxygenDataCollectorC19requiredPermissionsSaySSGSgvM",
+                "moduleName": "DSSDK_Health_Build",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "permissionType",
+            "printedName": "permissionType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DSSDK.PermissionType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PermissionType",
+                    "printedName": "DSSDK.PermissionType",
+                    "usr": "s:5DSSDK14PermissionTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18DSSDK_Health_Build24BloodOxygenDataCollectorC14permissionType0A0010PermissionI0OSgvp",
+            "mangledName": "$s18DSSDK_Health_Build24BloodOxygenDataCollectorC14permissionType0A0010PermissionI0OSgvp",
+            "moduleName": "DSSDK_Health_Build",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DSSDK.PermissionType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PermissionType",
+                        "printedName": "DSSDK.PermissionType",
+                        "usr": "s:5DSSDK14PermissionTypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DSSDK_Health_Build24BloodOxygenDataCollectorC14permissionType0A0010PermissionI0OSgvg",
+                "mangledName": "$s18DSSDK_Health_Build24BloodOxygenDataCollectorC14permissionType0A0010PermissionI0OSgvg",
+                "moduleName": "DSSDK_Health_Build",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DSSDK.PermissionType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PermissionType",
+                        "printedName": "DSSDK.PermissionType",
+                        "usr": "s:5DSSDK14PermissionTypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DSSDK_Health_Build24BloodOxygenDataCollectorC14permissionType0A0010PermissionI0OSgvs",
+                "mangledName": "$s18DSSDK_Health_Build24BloodOxygenDataCollectorC14permissionType0A0010PermissionI0OSgvs",
+                "moduleName": "DSSDK_Health_Build",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DSSDK_Health_Build24BloodOxygenDataCollectorC14permissionType0A0010PermissionI0OSgvM",
+                "mangledName": "$s18DSSDK_Health_Build24BloodOxygenDataCollectorC14permissionType0A0010PermissionI0OSgvM",
+                "moduleName": "DSSDK_Health_Build",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "isPermissionsGranted",
+            "printedName": "isPermissionsGranted()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18DSSDK_Health_Build24BloodOxygenDataCollectorC20isPermissionsGrantedSbyF",
+            "mangledName": "$s18DSSDK_Health_Build24BloodOxygenDataCollectorC20isPermissionsGrantedSbyF",
+            "moduleName": "DSSDK_Health_Build",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectData",
+            "printedName": "collectData(meDataName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MeDataValueResponse",
+                "printedName": "DSSDK.MeDataValueResponse",
+                "usr": "s:5DSSDK19MeDataValueResponseO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18DSSDK_Health_Build24BloodOxygenDataCollectorC07collectF002meF4Name0A002MeF13ValueResponseOSSSg_tYaKF",
+            "mangledName": "$s18DSSDK_Health_Build24BloodOxygenDataCollectorC07collectF002meF4Name0A002MeF13ValueResponseOSSSg_tYaKF",
+            "moduleName": "DSSDK_Health_Build",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:18DSSDK_Health_Build24BloodOxygenDataCollectorC",
+        "mangledName": "$s18DSSDK_Health_Build24BloodOxygenDataCollectorC",
+        "moduleName": "DSSDK_Health_Build",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MeDataValueCollector",
+            "printedName": "MeDataValueCollector",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "T",
+                "printedName": "T",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[DSSDK.MeDataRecordResponse]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MeDataRecordResponse",
+                        "printedName": "DSSDK.MeDataRecordResponse",
+                        "usr": "s:5DSSDK20MeDataRecordResponseV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:5DSSDK20MeDataValueCollectorP",
+            "mangledName": "$s5DSSDK20MeDataValueCollectorP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BloodOxygenDataCollectorPlugin",
+        "printedName": "BloodOxygenDataCollectorPlugin",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "createCollector",
+            "printedName": "createCollector()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MeDataValueCollector",
+                "printedName": "any DSSDK.MeDataValueCollector",
+                "usr": "s:5DSSDK20MeDataValueCollectorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18DSSDK_Health_Build30BloodOxygenDataCollectorPluginC06createG00A002Mef5ValueG0_pyFZ",
+            "mangledName": "$s18DSSDK_Health_Build30BloodOxygenDataCollectorPluginC06createG00A002Mef5ValueG0_pyFZ",
+            "moduleName": "DSSDK_Health_Build",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BloodOxygenDataCollectorPlugin",
+                "printedName": "DSSDK_Health_Build.BloodOxygenDataCollectorPlugin",
+                "usr": "c:@M@DSSDK_Health_Build@objc(cs)BloodOxygenDataCollectorPlugin"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DSSDK_Health_Build@objc(cs)BloodOxygenDataCollectorPlugin(im)init",
+            "mangledName": "$s18DSSDK_Health_Build30BloodOxygenDataCollectorPluginCACycfc",
+            "moduleName": "DSSDK_Health_Build",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DSSDK_Health_Build@objc(cs)BloodOxygenDataCollectorPlugin",
+        "mangledName": "$s18DSSDK_Health_Build30BloodOxygenDataCollectorPluginC",
+        "moduleName": "DSSDK_Health_Build",
+        "objc_name": "BloodOxygenDataCollectorPlugin",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "CollectorPlugin",
+            "printedName": "CollectorPlugin",
+            "usr": "s:5DSSDK15CollectorPluginP",
+            "mangledName": "$s5DSSDK15CollectorPluginP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DSSDK_Health_Build",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HealthKit",
+        "printedName": "HealthKit",
+        "declKind": "Import",
+        "moduleName": "DSSDK_Health_Build"
+      },
+      {
+        "kind": "Import",
+        "name": "DSSDK",
+        "printedName": "DSSDK",
+        "declKind": "Import",
+        "moduleName": "DSSDK_Health_Build"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CardioFitnessVo2MaxDataCollector",
+        "printedName": "CardioFitnessVo2MaxDataCollector",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CardioFitnessVo2MaxDataCollector",
+                "printedName": "DSSDK_Health_Build.CardioFitnessVo2MaxDataCollector",
+                "usr": "s:18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorCACycfc",
+            "mangledName": "$s18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorCACycfc",
+            "moduleName": "DSSDK_Health_Build",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC4nameSSvp",
+            "mangledName": "$s18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC4nameSSvp",
+            "moduleName": "DSSDK_Health_Build",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC4nameSSvg",
+                "mangledName": "$s18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC4nameSSvg",
+                "moduleName": "DSSDK_Health_Build",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC4nameSSvs",
+                "mangledName": "$s18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC4nameSSvs",
+                "moduleName": "DSSDK_Health_Build",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC4nameSSvM",
+                "mangledName": "$s18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC4nameSSvM",
+                "moduleName": "DSSDK_Health_Build",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "requiredPermissions",
+            "printedName": "requiredPermissions",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC19requiredPermissionsSaySSGSgvp",
+            "mangledName": "$s18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC19requiredPermissionsSaySSGSgvp",
+            "moduleName": "DSSDK_Health_Build",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC19requiredPermissionsSaySSGSgvg",
+                "mangledName": "$s18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC19requiredPermissionsSaySSGSgvg",
+                "moduleName": "DSSDK_Health_Build",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC19requiredPermissionsSaySSGSgvs",
+                "mangledName": "$s18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC19requiredPermissionsSaySSGSgvs",
+                "moduleName": "DSSDK_Health_Build",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC19requiredPermissionsSaySSGSgvM",
+                "mangledName": "$s18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC19requiredPermissionsSaySSGSgvM",
+                "moduleName": "DSSDK_Health_Build",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "permissionType",
+            "printedName": "permissionType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DSSDK.PermissionType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PermissionType",
+                    "printedName": "DSSDK.PermissionType",
+                    "usr": "s:5DSSDK14PermissionTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC14permissionType0A0010PermissionK0OSgvp",
+            "mangledName": "$s18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC14permissionType0A0010PermissionK0OSgvp",
+            "moduleName": "DSSDK_Health_Build",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DSSDK.PermissionType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PermissionType",
+                        "printedName": "DSSDK.PermissionType",
+                        "usr": "s:5DSSDK14PermissionTypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC14permissionType0A0010PermissionK0OSgvg",
+                "mangledName": "$s18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC14permissionType0A0010PermissionK0OSgvg",
+                "moduleName": "DSSDK_Health_Build",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DSSDK.PermissionType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PermissionType",
+                        "printedName": "DSSDK.PermissionType",
+                        "usr": "s:5DSSDK14PermissionTypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC14permissionType0A0010PermissionK0OSgvs",
+                "mangledName": "$s18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC14permissionType0A0010PermissionK0OSgvs",
+                "moduleName": "DSSDK_Health_Build",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC14permissionType0A0010PermissionK0OSgvM",
+                "mangledName": "$s18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC14permissionType0A0010PermissionK0OSgvM",
+                "moduleName": "DSSDK_Health_Build",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "isPermissionsGranted",
+            "printedName": "isPermissionsGranted()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC20isPermissionsGrantedSbyF",
+            "mangledName": "$s18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC20isPermissionsGrantedSbyF",
+            "moduleName": "DSSDK_Health_Build",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectData",
+            "printedName": "collectData(meDataName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MeDataValueResponse",
+                "printedName": "DSSDK.MeDataValueResponse",
+                "usr": "s:5DSSDK19MeDataValueResponseO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC07collectH002meH4Name0A002MeH13ValueResponseOSSSg_tYaKF",
+            "mangledName": "$s18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC07collectH002meH4Name0A002MeH13ValueResponseOSSSg_tYaKF",
+            "moduleName": "DSSDK_Health_Build",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC",
+        "mangledName": "$s18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC",
+        "moduleName": "DSSDK_Health_Build",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MeDataValueCollector",
+            "printedName": "MeDataValueCollector",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "T",
+                "printedName": "T",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[DSSDK.MeDataRecordResponse]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MeDataRecordResponse",
+                        "printedName": "DSSDK.MeDataRecordResponse",
+                        "usr": "s:5DSSDK20MeDataRecordResponseV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:5DSSDK20MeDataValueCollectorP",
+            "mangledName": "$s5DSSDK20MeDataValueCollectorP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CardioFitnessVo2MaxDataCollectorPlugin",
+        "printedName": "CardioFitnessVo2MaxDataCollectorPlugin",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "createCollector",
+            "printedName": "createCollector()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MeDataValueCollector",
+                "printedName": "any DSSDK.MeDataValueCollector",
+                "usr": "s:5DSSDK20MeDataValueCollectorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18DSSDK_Health_Build38CardioFitnessVo2MaxDataCollectorPluginC06createI00A002Meh5ValueI0_pyFZ",
+            "mangledName": "$s18DSSDK_Health_Build38CardioFitnessVo2MaxDataCollectorPluginC06createI00A002Meh5ValueI0_pyFZ",
+            "moduleName": "DSSDK_Health_Build",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CardioFitnessVo2MaxDataCollectorPlugin",
+                "printedName": "DSSDK_Health_Build.CardioFitnessVo2MaxDataCollectorPlugin",
+                "usr": "c:@M@DSSDK_Health_Build@objc(cs)CardioFitnessVo2MaxDataCollectorPlugin"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DSSDK_Health_Build@objc(cs)CardioFitnessVo2MaxDataCollectorPlugin(im)init",
+            "mangledName": "$s18DSSDK_Health_Build38CardioFitnessVo2MaxDataCollectorPluginCACycfc",
+            "moduleName": "DSSDK_Health_Build",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DSSDK_Health_Build@objc(cs)CardioFitnessVo2MaxDataCollectorPlugin",
+        "mangledName": "$s18DSSDK_Health_Build38CardioFitnessVo2MaxDataCollectorPluginC",
+        "moduleName": "DSSDK_Health_Build",
+        "objc_name": "CardioFitnessVo2MaxDataCollectorPlugin",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "CollectorPlugin",
+            "printedName": "CollectorPlugin",
+            "usr": "s:5DSSDK15CollectorPluginP",
+            "mangledName": "$s5DSSDK15CollectorPluginP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DSSDK_Health_Build",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DSSDK_Health_Build",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HealthKit",
+        "printedName": "HealthKit",
+        "declKind": "Import",
+        "moduleName": "DSSDK_Health_Build"
+      },
+      {
+        "kind": "Import",
+        "name": "DSSDK",
+        "printedName": "DSSDK",
+        "declKind": "Import",
+        "moduleName": "DSSDK_Health_Build"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DSSDK_Health_Build",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HealthKit",
+        "printedName": "HealthKit",
+        "declKind": "Import",
+        "moduleName": "DSSDK_Health_Build"
+      },
+      {
+        "kind": "Import",
+        "name": "DSSDK",
+        "printedName": "DSSDK",
+        "declKind": "Import",
+        "moduleName": "DSSDK_Health_Build"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HealthPermissionHandler",
+        "printedName": "HealthPermissionHandler",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HealthPermissionHandler",
+                "printedName": "DSSDK_Health_Build.HealthPermissionHandler",
+                "usr": "c:@M@DSSDK_Health_Build@objc(cs)HealthPermissionHandler"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DSSDK_Health_Build@objc(cs)HealthPermissionHandler(im)init",
+            "mangledName": "$s18DSSDK_Health_Build0B17PermissionHandlerCACycfc",
+            "moduleName": "DSSDK_Health_Build",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "Required",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "permissionTypeCase",
+            "printedName": "permissionTypeCase",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Case",
+                "printedName": "DSSDK.PermissionType.Case",
+                "usr": "s:5DSSDK14PermissionTypeO4CaseO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18DSSDK_Health_Build0B17PermissionHandlerC18permissionTypeCase0A00dG0O0H0Ovp",
+            "mangledName": "$s18DSSDK_Health_Build0B17PermissionHandlerC18permissionTypeCase0A00dG0O0H0Ovp",
+            "moduleName": "DSSDK_Health_Build",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Case",
+                    "printedName": "DSSDK.PermissionType.Case",
+                    "usr": "s:5DSSDK14PermissionTypeO4CaseO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DSSDK_Health_Build0B17PermissionHandlerC18permissionTypeCase0A00dG0O0H0Ovg",
+                "mangledName": "$s18DSSDK_Health_Build0B17PermissionHandlerC18permissionTypeCase0A00dG0O0H0Ovg",
+                "moduleName": "DSSDK_Health_Build",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "request",
+            "printedName": "request(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PermissionType",
+                "printedName": "DSSDK.PermissionType",
+                "usr": "s:5DSSDK14PermissionTypeO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18DSSDK_Health_Build0B17PermissionHandlerC7request_10completiony0A00D4TypeO_ySbctF",
+            "mangledName": "$s18DSSDK_Health_Build0B17PermissionHandlerC7request_10completiony0A00D4TypeO_ySbctF",
+            "moduleName": "DSSDK_Health_Build",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DSSDK_Health_Build@objc(cs)HealthPermissionHandler",
+        "mangledName": "$s18DSSDK_Health_Build0B17PermissionHandlerC",
+        "moduleName": "DSSDK_Health_Build",
+        "objc_name": "HealthPermissionHandler",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "PermissionRequestHandling",
+            "printedName": "PermissionRequestHandling",
+            "usr": "s:5DSSDK25PermissionRequestHandlingP",
+            "mangledName": "$s5DSSDK25PermissionRequestHandlingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DSSDK_Health_Build",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HealthKit",
+        "printedName": "HealthKit",
+        "declKind": "Import",
+        "moduleName": "DSSDK_Health_Build"
+      },
+      {
+        "kind": "Import",
+        "name": "DSSDK",
+        "printedName": "DSSDK",
+        "declKind": "Import",
+        "moduleName": "DSSDK_Health_Build"
+      },
+      {
+        "kind": "TypeDecl",
         "name": "HeartRateDataCollector",
         "printedName": "HeartRateDataCollector",
         "children": [
@@ -4635,1554 +6178,39 @@
             "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "DSSDK_Health_Build",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "HealthKit",
-        "printedName": "HealthKit",
-        "declKind": "Import",
-        "moduleName": "DSSDK_Health_Build"
-      },
-      {
-        "kind": "Import",
-        "name": "DSSDK",
-        "printedName": "DSSDK",
-        "declKind": "Import",
-        "moduleName": "DSSDK_Health_Build"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "BloodOxygenDataCollector",
-        "printedName": "BloodOxygenDataCollector",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "BloodOxygenDataCollector",
-                "printedName": "DSSDK_Health_Build.BloodOxygenDataCollector",
-                "usr": "s:18DSSDK_Health_Build24BloodOxygenDataCollectorC"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:18DSSDK_Health_Build24BloodOxygenDataCollectorCACycfc",
-            "mangledName": "$s18DSSDK_Health_Build24BloodOxygenDataCollectorCACycfc",
-            "moduleName": "DSSDK_Health_Build",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "name",
-            "printedName": "name",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18DSSDK_Health_Build24BloodOxygenDataCollectorC4nameSSvp",
-            "mangledName": "$s18DSSDK_Health_Build24BloodOxygenDataCollectorC4nameSSvp",
-            "moduleName": "DSSDK_Health_Build",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18DSSDK_Health_Build24BloodOxygenDataCollectorC4nameSSvg",
-                "mangledName": "$s18DSSDK_Health_Build24BloodOxygenDataCollectorC4nameSSvg",
-                "moduleName": "DSSDK_Health_Build",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18DSSDK_Health_Build24BloodOxygenDataCollectorC4nameSSvs",
-                "mangledName": "$s18DSSDK_Health_Build24BloodOxygenDataCollectorC4nameSSvs",
-                "moduleName": "DSSDK_Health_Build",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18DSSDK_Health_Build24BloodOxygenDataCollectorC4nameSSvM",
-                "mangledName": "$s18DSSDK_Health_Build24BloodOxygenDataCollectorC4nameSSvM",
-                "moduleName": "DSSDK_Health_Build",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "requiredPermissions",
-            "printedName": "requiredPermissions",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18DSSDK_Health_Build24BloodOxygenDataCollectorC19requiredPermissionsSaySSGSgvp",
-            "mangledName": "$s18DSSDK_Health_Build24BloodOxygenDataCollectorC19requiredPermissionsSaySSGSgvp",
-            "moduleName": "DSSDK_Health_Build",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[Swift.String]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[Swift.String]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18DSSDK_Health_Build24BloodOxygenDataCollectorC19requiredPermissionsSaySSGSgvg",
-                "mangledName": "$s18DSSDK_Health_Build24BloodOxygenDataCollectorC19requiredPermissionsSaySSGSgvg",
-                "moduleName": "DSSDK_Health_Build",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[Swift.String]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[Swift.String]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18DSSDK_Health_Build24BloodOxygenDataCollectorC19requiredPermissionsSaySSGSgvs",
-                "mangledName": "$s18DSSDK_Health_Build24BloodOxygenDataCollectorC19requiredPermissionsSaySSGSgvs",
-                "moduleName": "DSSDK_Health_Build",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18DSSDK_Health_Build24BloodOxygenDataCollectorC19requiredPermissionsSaySSGSgvM",
-                "mangledName": "$s18DSSDK_Health_Build24BloodOxygenDataCollectorC19requiredPermissionsSaySSGSgvM",
-                "moduleName": "DSSDK_Health_Build",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "permissionType",
-            "printedName": "permissionType",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "DSSDK.PermissionType?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PermissionType",
-                    "printedName": "DSSDK.PermissionType",
-                    "usr": "s:5DSSDK14PermissionTypeO"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18DSSDK_Health_Build24BloodOxygenDataCollectorC14permissionType0A0010PermissionI0OSgvp",
-            "mangledName": "$s18DSSDK_Health_Build24BloodOxygenDataCollectorC14permissionType0A0010PermissionI0OSgvp",
-            "moduleName": "DSSDK_Health_Build",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "DSSDK.PermissionType?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PermissionType",
-                        "printedName": "DSSDK.PermissionType",
-                        "usr": "s:5DSSDK14PermissionTypeO"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18DSSDK_Health_Build24BloodOxygenDataCollectorC14permissionType0A0010PermissionI0OSgvg",
-                "mangledName": "$s18DSSDK_Health_Build24BloodOxygenDataCollectorC14permissionType0A0010PermissionI0OSgvg",
-                "moduleName": "DSSDK_Health_Build",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "DSSDK.PermissionType?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PermissionType",
-                        "printedName": "DSSDK.PermissionType",
-                        "usr": "s:5DSSDK14PermissionTypeO"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18DSSDK_Health_Build24BloodOxygenDataCollectorC14permissionType0A0010PermissionI0OSgvs",
-                "mangledName": "$s18DSSDK_Health_Build24BloodOxygenDataCollectorC14permissionType0A0010PermissionI0OSgvs",
-                "moduleName": "DSSDK_Health_Build",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18DSSDK_Health_Build24BloodOxygenDataCollectorC14permissionType0A0010PermissionI0OSgvM",
-                "mangledName": "$s18DSSDK_Health_Build24BloodOxygenDataCollectorC14permissionType0A0010PermissionI0OSgvM",
-                "moduleName": "DSSDK_Health_Build",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "isPermissionsGranted",
-            "printedName": "isPermissionsGranted()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:18DSSDK_Health_Build24BloodOxygenDataCollectorC20isPermissionsGrantedSbyF",
-            "mangledName": "$s18DSSDK_Health_Build24BloodOxygenDataCollectorC20isPermissionsGrantedSbyF",
-            "moduleName": "DSSDK_Health_Build",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "collectData",
-            "printedName": "collectData(meDataName:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MeDataValueResponse",
-                "printedName": "DSSDK.MeDataValueResponse",
-                "usr": "s:5DSSDK19MeDataValueResponseO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:18DSSDK_Health_Build24BloodOxygenDataCollectorC07collectF002meF4Name0A002MeF13ValueResponseOSSSg_tYaKF",
-            "mangledName": "$s18DSSDK_Health_Build24BloodOxygenDataCollectorC07collectF002meF4Name0A002MeF13ValueResponseOSSSg_tYaKF",
-            "moduleName": "DSSDK_Health_Build",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:18DSSDK_Health_Build24BloodOxygenDataCollectorC",
-        "mangledName": "$s18DSSDK_Health_Build24BloodOxygenDataCollectorC",
-        "moduleName": "DSSDK_Health_Build",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "MeDataValueCollector",
-            "printedName": "MeDataValueCollector",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "T",
-                "printedName": "T",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[DSSDK.MeDataRecordResponse]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "MeDataRecordResponse",
-                        "printedName": "DSSDK.MeDataRecordResponse",
-                        "usr": "s:5DSSDK20MeDataRecordResponseV"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:5DSSDK20MeDataValueCollectorP",
-            "mangledName": "$s5DSSDK20MeDataValueCollectorP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "BloodOxygenDataCollectorPlugin",
-        "printedName": "BloodOxygenDataCollectorPlugin",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "createCollector",
-            "printedName": "createCollector()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MeDataValueCollector",
-                "printedName": "any DSSDK.MeDataValueCollector",
-                "usr": "s:5DSSDK20MeDataValueCollectorP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:18DSSDK_Health_Build30BloodOxygenDataCollectorPluginC06createG00A002Mef5ValueG0_pyFZ",
-            "mangledName": "$s18DSSDK_Health_Build30BloodOxygenDataCollectorPluginC06createG00A002Mef5ValueG0_pyFZ",
-            "moduleName": "DSSDK_Health_Build",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "BloodOxygenDataCollectorPlugin",
-                "printedName": "DSSDK_Health_Build.BloodOxygenDataCollectorPlugin",
-                "usr": "c:@M@DSSDK_Health_Build@objc(cs)BloodOxygenDataCollectorPlugin"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@DSSDK_Health_Build@objc(cs)BloodOxygenDataCollectorPlugin(im)init",
-            "mangledName": "$s18DSSDK_Health_Build30BloodOxygenDataCollectorPluginCACycfc",
-            "moduleName": "DSSDK_Health_Build",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@DSSDK_Health_Build@objc(cs)BloodOxygenDataCollectorPlugin",
-        "mangledName": "$s18DSSDK_Health_Build30BloodOxygenDataCollectorPluginC",
-        "moduleName": "DSSDK_Health_Build",
-        "objc_name": "BloodOxygenDataCollectorPlugin",
-        "declAttributes": [
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "CollectorPlugin",
-            "printedName": "CollectorPlugin",
-            "usr": "s:5DSSDK15CollectorPluginP",
-            "mangledName": "$s5DSSDK15CollectorPluginP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "DSSDK_Health_Build",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "HealthKit",
-        "printedName": "HealthKit",
-        "declKind": "Import",
-        "moduleName": "DSSDK_Health_Build"
-      },
-      {
-        "kind": "Import",
-        "name": "DSSDK",
-        "printedName": "DSSDK",
-        "declKind": "Import",
-        "moduleName": "DSSDK_Health_Build"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "CardioFitnessVo2MaxDataCollector",
-        "printedName": "CardioFitnessVo2MaxDataCollector",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CardioFitnessVo2MaxDataCollector",
-                "printedName": "DSSDK_Health_Build.CardioFitnessVo2MaxDataCollector",
-                "usr": "s:18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorCACycfc",
-            "mangledName": "$s18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorCACycfc",
-            "moduleName": "DSSDK_Health_Build",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "name",
-            "printedName": "name",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC4nameSSvp",
-            "mangledName": "$s18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC4nameSSvp",
-            "moduleName": "DSSDK_Health_Build",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC4nameSSvg",
-                "mangledName": "$s18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC4nameSSvg",
-                "moduleName": "DSSDK_Health_Build",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC4nameSSvs",
-                "mangledName": "$s18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC4nameSSvs",
-                "moduleName": "DSSDK_Health_Build",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC4nameSSvM",
-                "mangledName": "$s18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC4nameSSvM",
-                "moduleName": "DSSDK_Health_Build",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "requiredPermissions",
-            "printedName": "requiredPermissions",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC19requiredPermissionsSaySSGSgvp",
-            "mangledName": "$s18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC19requiredPermissionsSaySSGSgvp",
-            "moduleName": "DSSDK_Health_Build",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[Swift.String]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[Swift.String]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC19requiredPermissionsSaySSGSgvg",
-                "mangledName": "$s18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC19requiredPermissionsSaySSGSgvg",
-                "moduleName": "DSSDK_Health_Build",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[Swift.String]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[Swift.String]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC19requiredPermissionsSaySSGSgvs",
-                "mangledName": "$s18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC19requiredPermissionsSaySSGSgvs",
-                "moduleName": "DSSDK_Health_Build",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC19requiredPermissionsSaySSGSgvM",
-                "mangledName": "$s18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC19requiredPermissionsSaySSGSgvM",
-                "moduleName": "DSSDK_Health_Build",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "permissionType",
-            "printedName": "permissionType",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "DSSDK.PermissionType?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PermissionType",
-                    "printedName": "DSSDK.PermissionType",
-                    "usr": "s:5DSSDK14PermissionTypeO"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC14permissionType0A0010PermissionK0OSgvp",
-            "mangledName": "$s18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC14permissionType0A0010PermissionK0OSgvp",
-            "moduleName": "DSSDK_Health_Build",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "DSSDK.PermissionType?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PermissionType",
-                        "printedName": "DSSDK.PermissionType",
-                        "usr": "s:5DSSDK14PermissionTypeO"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC14permissionType0A0010PermissionK0OSgvg",
-                "mangledName": "$s18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC14permissionType0A0010PermissionK0OSgvg",
-                "moduleName": "DSSDK_Health_Build",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "DSSDK.PermissionType?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PermissionType",
-                        "printedName": "DSSDK.PermissionType",
-                        "usr": "s:5DSSDK14PermissionTypeO"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC14permissionType0A0010PermissionK0OSgvs",
-                "mangledName": "$s18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC14permissionType0A0010PermissionK0OSgvs",
-                "moduleName": "DSSDK_Health_Build",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC14permissionType0A0010PermissionK0OSgvM",
-                "mangledName": "$s18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC14permissionType0A0010PermissionK0OSgvM",
-                "moduleName": "DSSDK_Health_Build",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "isPermissionsGranted",
-            "printedName": "isPermissionsGranted()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC20isPermissionsGrantedSbyF",
-            "mangledName": "$s18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC20isPermissionsGrantedSbyF",
-            "moduleName": "DSSDK_Health_Build",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "collectData",
-            "printedName": "collectData(meDataName:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MeDataValueResponse",
-                "printedName": "DSSDK.MeDataValueResponse",
-                "usr": "s:5DSSDK19MeDataValueResponseO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC07collectH002meH4Name0A002MeH13ValueResponseOSSSg_tYaKF",
-            "mangledName": "$s18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC07collectH002meH4Name0A002MeH13ValueResponseOSSSg_tYaKF",
-            "moduleName": "DSSDK_Health_Build",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC",
-        "mangledName": "$s18DSSDK_Health_Build32CardioFitnessVo2MaxDataCollectorC",
-        "moduleName": "DSSDK_Health_Build",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "MeDataValueCollector",
-            "printedName": "MeDataValueCollector",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "T",
-                "printedName": "T",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[DSSDK.MeDataRecordResponse]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "MeDataRecordResponse",
-                        "printedName": "DSSDK.MeDataRecordResponse",
-                        "usr": "s:5DSSDK20MeDataRecordResponseV"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:5DSSDK20MeDataValueCollectorP",
-            "mangledName": "$s5DSSDK20MeDataValueCollectorP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "CardioFitnessVo2MaxDataCollectorPlugin",
-        "printedName": "CardioFitnessVo2MaxDataCollectorPlugin",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "createCollector",
-            "printedName": "createCollector()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MeDataValueCollector",
-                "printedName": "any DSSDK.MeDataValueCollector",
-                "usr": "s:5DSSDK20MeDataValueCollectorP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:18DSSDK_Health_Build38CardioFitnessVo2MaxDataCollectorPluginC06createI00A002Meh5ValueI0_pyFZ",
-            "mangledName": "$s18DSSDK_Health_Build38CardioFitnessVo2MaxDataCollectorPluginC06createI00A002Meh5ValueI0_pyFZ",
-            "moduleName": "DSSDK_Health_Build",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CardioFitnessVo2MaxDataCollectorPlugin",
-                "printedName": "DSSDK_Health_Build.CardioFitnessVo2MaxDataCollectorPlugin",
-                "usr": "c:@M@DSSDK_Health_Build@objc(cs)CardioFitnessVo2MaxDataCollectorPlugin"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@DSSDK_Health_Build@objc(cs)CardioFitnessVo2MaxDataCollectorPlugin(im)init",
-            "mangledName": "$s18DSSDK_Health_Build38CardioFitnessVo2MaxDataCollectorPluginCACycfc",
-            "moduleName": "DSSDK_Health_Build",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@DSSDK_Health_Build@objc(cs)CardioFitnessVo2MaxDataCollectorPlugin",
-        "mangledName": "$s18DSSDK_Health_Build38CardioFitnessVo2MaxDataCollectorPluginC",
-        "moduleName": "DSSDK_Health_Build",
-        "objc_name": "CardioFitnessVo2MaxDataCollectorPlugin",
-        "declAttributes": [
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "CollectorPlugin",
-            "printedName": "CollectorPlugin",
-            "usr": "s:5DSSDK15CollectorPluginP",
-            "mangledName": "$s5DSSDK15CollectorPluginP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "DSSDK_Health_Build",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "DSSDK_Health_Build",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "HealthKit",
-        "printedName": "HealthKit",
-        "declKind": "Import",
-        "moduleName": "DSSDK_Health_Build"
-      },
-      {
-        "kind": "Import",
-        "name": "DSSDK",
-        "printedName": "DSSDK",
-        "declKind": "Import",
-        "moduleName": "DSSDK_Health_Build"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "DSSDK_Health_Build",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "HealthKit",
-        "printedName": "HealthKit",
-        "declKind": "Import",
-        "moduleName": "DSSDK_Health_Build"
-      },
-      {
-        "kind": "Import",
-        "name": "DSSDK",
-        "printedName": "DSSDK",
-        "declKind": "Import",
-        "moduleName": "DSSDK_Health_Build"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "HealthPermissionHandler",
-        "printedName": "HealthPermissionHandler",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "HealthPermissionHandler",
-                "printedName": "DSSDK_Health_Build.HealthPermissionHandler",
-                "usr": "c:@M@DSSDK_Health_Build@objc(cs)HealthPermissionHandler"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@DSSDK_Health_Build@objc(cs)HealthPermissionHandler(im)init",
-            "mangledName": "$s18DSSDK_Health_Build0B17PermissionHandlerCACycfc",
-            "moduleName": "DSSDK_Health_Build",
-            "overriding": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override",
-              "Required",
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "permissionTypeCase",
-            "printedName": "permissionTypeCase",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Case",
-                "printedName": "DSSDK.PermissionType.Case",
-                "usr": "s:5DSSDK14PermissionTypeO4CaseO"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18DSSDK_Health_Build0B17PermissionHandlerC18permissionTypeCase0A00dG0O0H0Ovp",
-            "mangledName": "$s18DSSDK_Health_Build0B17PermissionHandlerC18permissionTypeCase0A00dG0O0H0Ovp",
-            "moduleName": "DSSDK_Health_Build",
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Case",
-                    "printedName": "DSSDK.PermissionType.Case",
-                    "usr": "s:5DSSDK14PermissionTypeO4CaseO"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18DSSDK_Health_Build0B17PermissionHandlerC18permissionTypeCase0A00dG0O0H0Ovg",
-                "mangledName": "$s18DSSDK_Health_Build0B17PermissionHandlerC18permissionTypeCase0A00dG0O0H0Ovg",
-                "moduleName": "DSSDK_Health_Build",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "request",
-            "printedName": "request(_:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "PermissionType",
-                "printedName": "DSSDK.PermissionType",
-                "usr": "s:5DSSDK14PermissionTypeO"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Bool) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:18DSSDK_Health_Build0B17PermissionHandlerC7request_10completiony0A00D4TypeO_ySbctF",
-            "mangledName": "$s18DSSDK_Health_Build0B17PermissionHandlerC7request_10completiony0A00D4TypeO_ySbctF",
-            "moduleName": "DSSDK_Health_Build",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@DSSDK_Health_Build@objc(cs)HealthPermissionHandler",
-        "mangledName": "$s18DSSDK_Health_Build0B17PermissionHandlerC",
-        "moduleName": "DSSDK_Health_Build",
-        "objc_name": "HealthPermissionHandler",
-        "declAttributes": [
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "PermissionRequestHandling",
-            "printedName": "PermissionRequestHandling",
-            "usr": "s:5DSSDK25PermissionRequestHandlingP",
-            "mangledName": "$s5DSSDK25PermissionRequestHandlingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
+    {
+      "filePath": "\/Users\/ardadogantemur\/Desktop\/Git\/Data Sapien\/DSSDK-Health-Build\/DSSDK-Health-Build\/BloodOxygenDataCollector.swift",
+      "kind": "Array",
+      "offset": 509,
+      "length": 33,
+      "value": "[\"HKHealthStore\", \".bloodOxygen\"]"
+    },
+    {
+      "filePath": "\/Users\/ardadogantemur\/Desktop\/Git\/Data Sapien\/DSSDK-Health-Build\/DSSDK-Health-Build\/BloodOxygenDataCollector.swift",
+      "kind": "Array",
+      "offset": 618,
+      "length": 44,
+      "value": "[\"HKQuantityTypeIdentifierOxygenSaturation\"]"
+    },
+    {
+      "filePath": "\/Users\/ardadogantemur\/Desktop\/Git\/Data Sapien\/DSSDK-Health-Build\/DSSDK-Health-Build\/CardioFitnessVo2MaxDataCollector.swift",
+      "kind": "Array",
+      "offset": 565,
+      "length": 28,
+      "value": "[\"HKHealthStore\", \".vo2Max\"]"
+    },
+    {
+      "filePath": "\/Users\/ardadogantemur\/Desktop\/Git\/Data Sapien\/DSSDK-Health-Build\/DSSDK-Health-Build\/CardioFitnessVo2MaxDataCollector.swift",
+      "kind": "Array",
+      "offset": 669,
+      "length": 34,
+      "value": "[\"HKQuantityTypeIdentifierVO2Max\"]"
+    },
     {
       "filePath": "\/Users\/ardadogantemur\/Desktop\/Git\/Data Sapien\/DSSDK-Health-Build\/DSSDK-Health-Build\/HeartRateDataCollector.swift",
       "kind": "Array",
@@ -6329,34 +6357,6 @@
       "offset": 481,
       "length": 36,
       "value": "[\"HKQuantityTypeIdentifierBodyMass\"]"
-    },
-    {
-      "filePath": "\/Users\/ardadogantemur\/Desktop\/Git\/Data Sapien\/DSSDK-Health-Build\/DSSDK-Health-Build\/BloodOxygenDataCollector.swift",
-      "kind": "Array",
-      "offset": 509,
-      "length": 33,
-      "value": "[\"HKHealthStore\", \".bloodOxygen\"]"
-    },
-    {
-      "filePath": "\/Users\/ardadogantemur\/Desktop\/Git\/Data Sapien\/DSSDK-Health-Build\/DSSDK-Health-Build\/BloodOxygenDataCollector.swift",
-      "kind": "Array",
-      "offset": 618,
-      "length": 44,
-      "value": "[\"HKQuantityTypeIdentifierOxygenSaturation\"]"
-    },
-    {
-      "filePath": "\/Users\/ardadogantemur\/Desktop\/Git\/Data Sapien\/DSSDK-Health-Build\/DSSDK-Health-Build\/CardioFitnessVo2MaxDataCollector.swift",
-      "kind": "Array",
-      "offset": 565,
-      "length": 28,
-      "value": "[\"HKHealthStore\", \".vo2Max\"]"
-    },
-    {
-      "filePath": "\/Users\/ardadogantemur\/Desktop\/Git\/Data Sapien\/DSSDK-Health-Build\/DSSDK-Health-Build\/CardioFitnessVo2MaxDataCollector.swift",
-      "kind": "Array",
-      "offset": 669,
-      "length": 34,
-      "value": "[\"HKQuantityTypeIdentifierVO2Max\"]"
     }
   ]
 }
