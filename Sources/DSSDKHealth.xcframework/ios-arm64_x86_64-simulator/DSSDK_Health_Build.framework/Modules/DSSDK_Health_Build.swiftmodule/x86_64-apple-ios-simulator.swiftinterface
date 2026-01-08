@@ -24,21 +24,6 @@ public class BloodOxygenDataCollector : DSSDK.MeDataValueCollector {
   @objc override dynamic public init()
   @objc deinit
 }
-public class HeightDataCollector : DSSDK.MeDataValueCollector {
-  public init()
-  public typealias T = [DSSDK.MeDataRecordResponse]
-  public var name: Swift.String
-  public var requiredPermissions: [Swift.String]?
-  public var permissionType: DSSDK.PermissionType?
-  public func isPermissionsGranted() -> Swift.Bool
-  public func collectData(meDataName: Swift.String? = nil) async throws -> DSSDK.MeDataValueResponse
-  @objc deinit
-}
-@_inheritsConvenienceInitializers @objc(HeightDataCollectorPlugin) public class HeightDataCollectorPlugin : ObjectiveC.NSObject, DSSDK.CollectorPlugin {
-  public static func createCollector() -> any DSSDK.MeDataValueCollector
-  @objc override dynamic public init()
-  @objc deinit
-}
 public class CardioFitnessVo2MaxDataCollector : DSSDK.MeDataValueCollector {
   public init()
   public typealias T = [DSSDK.MeDataRecordResponse]
@@ -50,6 +35,42 @@ public class CardioFitnessVo2MaxDataCollector : DSSDK.MeDataValueCollector {
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc(CardioFitnessVo2MaxDataCollectorPlugin) public class CardioFitnessVo2MaxDataCollectorPlugin : ObjectiveC.NSObject, DSSDK.CollectorPlugin {
+  public static func createCollector() -> any DSSDK.MeDataValueCollector
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(HealthPermissionHandler) public class HealthPermissionHandler : ObjectiveC.NSObject, DSSDK.PermissionRequestHandling {
+  @objc required override dynamic public init()
+  final public let permissionTypeCase: DSSDK.PermissionType.Case
+  public func request(_ type: DSSDK.PermissionType, completion: @escaping (Swift.Bool) -> Swift.Void)
+  @objc deinit
+}
+public class HeartRateDataCollector : DSSDK.MeDataValueCollector {
+  public init()
+  public typealias T = [DSSDK.MeDataRecordResponse]
+  public var name: Swift.String
+  public var requiredPermissions: [Swift.String]?
+  public var permissionType: DSSDK.PermissionType?
+  public func isPermissionsGranted() -> Swift.Bool
+  public func collectData(meDataName: Swift.String? = nil) async throws -> DSSDK.MeDataValueResponse
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(HeartRateDataCollectorPlugin) public class HeartRateDataCollectorPlugin : ObjectiveC.NSObject, DSSDK.CollectorPlugin {
+  public static func createCollector() -> any DSSDK.MeDataValueCollector
+  @objc override dynamic public init()
+  @objc deinit
+}
+public class HeightDataCollector : DSSDK.MeDataValueCollector {
+  public init()
+  public typealias T = [DSSDK.MeDataRecordResponse]
+  public var name: Swift.String
+  public var requiredPermissions: [Swift.String]?
+  public var permissionType: DSSDK.PermissionType?
+  public func isPermissionsGranted() -> Swift.Bool
+  public func collectData(meDataName: Swift.String? = nil) async throws -> DSSDK.MeDataValueResponse
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(HeightDataCollectorPlugin) public class HeightDataCollectorPlugin : ObjectiveC.NSObject, DSSDK.CollectorPlugin {
   public static func createCollector() -> any DSSDK.MeDataValueCollector
   @objc override dynamic public init()
   @objc deinit
@@ -84,14 +105,23 @@ public class SleepDurationDataCollector : DSSDK.MeDataValueCollector {
   @objc override dynamic public init()
   @objc deinit
 }
-public class StepCountDataCollector : DSSDK.MeDataValueCollector {
+final public class StepCountDataCollector : DSSDK.MeDataValueCollector {
   public init()
   public typealias T = [DSSDK.MeDataRecordResponse]
-  public var name: Swift.String
-  public var requiredPermissions: [Swift.String]?
-  public var permissionType: DSSDK.PermissionType?
-  public func isPermissionsGranted() -> Swift.Bool
-  public func collectData(meDataName: Swift.String? = nil) async throws -> DSSDK.MeDataValueResponse
+  final public var name: Swift.String
+  final public var requiredPermissions: [Swift.String]?
+  final public var permissionType: DSSDK.PermissionType?
+  final public func isPermissionsGranted() -> Swift.Bool
+  public enum RecordDateSource {
+    case startDate
+    case endDate
+    public static func == (a: DSSDK_Health_Build.StepCountDataCollector.RecordDateSource, b: DSSDK_Health_Build.StepCountDataCollector.RecordDateSource) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  final public func collectData(meDataName: Swift.String? = nil) async throws -> DSSDK.MeDataValueResponse
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc(StepCountDataCollectorPlugin) public class StepCountDataCollectorPlugin : ObjectiveC.NSObject, DSSDK.CollectorPlugin {
@@ -120,12 +150,6 @@ public struct TotalCalorieData : Swift.Codable, Swift.Sendable {
   @objc override dynamic public init()
   @objc deinit
 }
-@_inheritsConvenienceInitializers @objc(HealthPermissionHandler) public class HealthPermissionHandler : ObjectiveC.NSObject, DSSDK.PermissionRequestHandling {
-  @objc required override dynamic public init()
-  final public let permissionTypeCase: DSSDK.PermissionType.Case
-  public func request(_ type: DSSDK.PermissionType, completion: @escaping (Swift.Bool) -> Swift.Void)
-  @objc deinit
-}
 public class WeightDataCollector : DSSDK.MeDataValueCollector {
   public init()
   public typealias T = [DSSDK.MeDataRecordResponse]
@@ -141,18 +165,5 @@ public class WeightDataCollector : DSSDK.MeDataValueCollector {
   @objc override dynamic public init()
   @objc deinit
 }
-public class HeartRateDataCollector : DSSDK.MeDataValueCollector {
-  public init()
-  public typealias T = [DSSDK.MeDataRecordResponse]
-  public var name: Swift.String
-  public var requiredPermissions: [Swift.String]?
-  public var permissionType: DSSDK.PermissionType?
-  public func isPermissionsGranted() -> Swift.Bool
-  public func collectData(meDataName: Swift.String? = nil) async throws -> DSSDK.MeDataValueResponse
-  @objc deinit
-}
-@_inheritsConvenienceInitializers @objc(HeartRateDataCollectorPlugin) public class HeartRateDataCollectorPlugin : ObjectiveC.NSObject, DSSDK.CollectorPlugin {
-  public static func createCollector() -> any DSSDK.MeDataValueCollector
-  @objc override dynamic public init()
-  @objc deinit
-}
+extension DSSDK_Health_Build.StepCountDataCollector.RecordDateSource : Swift.Equatable {}
+extension DSSDK_Health_Build.StepCountDataCollector.RecordDateSource : Swift.Hashable {}
